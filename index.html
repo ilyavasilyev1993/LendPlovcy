@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ГОСКРЕП — крепёж, на котором держится ваш бизнес</title>
+  <meta name="description" content="Оптовые поставки крепежа по всей России. 5000+ позиций, собственное производство, удобные фасовки.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Верхняя полоска -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span>Москва, Санкт-Петербург</span>
+        <a href="#">Все офисы</a>
+      </div>
+      <div class="top-bar-right">
+        <a href="#">О компании</a>
+        <a href="#">Доставка</a>
+        <a href="#">Контакты</a>
+        <a href="mailto:info@goskrep.ru">info@goskrep.ru</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">ГОС<span>КРЕП</span></div>
+      <div class="header-search">
+        <input type="text" placeholder="Поиск по каталогу: саморезы, болты, DIN 912...">
+        <button class="header-search-btn">🔍</button>
+      </div>
+      <a href="tel:88007778259" class="header-phone">8 (800) 777-82-59</a>
+      <div class="header-actions">
+        <button class="header-action">
+          <span class="icon">♡</span>
+          <span>Избранное</span>
+        </button>
+        <button class="header-action">
+          <span class="icon">🛒</span>
+          <span>Корзина</span>
+          <span class="badge">3</span>
+        </button>
+        <button class="header-action">
+          <span class="icon">👤</span>
+          <span>Войти</span>
+        </button>
+      </div>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Каталог-навигация -->
+  <nav class="catalog-nav">
+    <div class="container">
+      <a href="product.html">Строительный крепёж</a>
+      <a href="product.html">Метрический крепёж</a>
+      <a href="#">Перфорированный крепёж</a>
+      <a href="#">Нержавеющий крепёж</a>
+      <a href="#">Такелаж</a>
+      <a href="#">Саморезы</a>
+      <a href="#">Дюбели и анкеры</a>
+      <a href="#">Профессиональный Bullit</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">15 лет на рынке</div>
+          <h1>Крепёж, на котором держится <em>ваш бизнес</em></h1>
+          <p class="hero-desc">Полное закрытие заказов, собственное производство, удобные фасовки и поставки по всей России. Надёжный партнёр, который думает о вашем бизнесе.</p>
+          <div class="hero-buttons">
+            <button class="btn btn-red btn-lg" id="heroCta">Получить прайс</button>
+            <a href="#catalog" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,0.2);color:#fff">Смотреть каталог</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <div class="hero-stat-value">5 000+</div>
+              <div class="hero-stat-label">позиций в каталоге</div>
+            </div>
+            <div>
+              <div class="hero-stat-value">95%</div>
+              <div class="hero-stat-label">заявок со склада</div>
+            </div>
+            <div>
+              <div class="hero-stat-value">до 30%</div>
+              <div class="hero-stat-label">экономия на логистике</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-category">
+            <div class="cat-icon">🔩</div>
+            <h3>Саморезы</h3>
+            <p>420+ позиций</p>
+          </div>
+          <div class="hero-category">
+            <div class="cat-icon">⚙️</div>
+            <h3>Болты и гайки</h3>
+            <p>380+ позиций</p>
+          </div>
+          <div class="hero-category">
+            <div class="cat-icon">📎</div>
+            <h3>Анкеры</h3>
+            <p>250+ позиций</p>
+          </div>
+          <div class="hero-category">
+            <div class="cat-icon">🔧</div>
+            <h3>Перфокрепёж</h3>
+            <p>180+ позиций</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Преимущества -->
+  <section class="section">
+    <div class="container">
+      <div class="advantages-grid">
+        <div class="advantage reveal">
+          <div class="advantage-icon red">📦</div>
+          <h3>5 000+ позиций</h3>
+          <p>Полный ассортимент строительного и метрического крепежа. Всё в одном месте</p>
+        </div>
+        <div class="advantage reveal">
+          <div class="advantage-icon blue">⚡</div>
+          <h3>95% со склада</h3>
+          <p>Почти всё в наличии. Отгрузка в день заказа, без ожидания поставок</p>
+        </div>
+        <div class="advantage reveal">
+          <div class="advantage-icon green">🚛</div>
+          <h3>Экономия до 30%</h3>
+          <p>Собственная логистика и склады в Москве и Петербурге. Доставка по всей России</p>
+        </div>
+        <div class="advantage reveal">
+          <div class="advantage-icon orange">🏭</div>
+          <h3>Своё производство</h3>
+          <p>Перфорированный крепёж собственного производства. Индивидуальная фасовка</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Хиты продаж -->
+  <section class="section section-light" id="catalog">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Хиты продаж</h2>
+        <a href="#" class="section-link">Весь каталог →</a>
+      </div>
+      <div class="products-grid">
+        <div class="product-card reveal">
+          <div class="product-card-badge hit">Хит</div>
+          <div class="product-card-image">🔩</div>
+          <h3>Саморез по дереву ГКД чёрный фосфат</h3>
+          <div class="product-card-meta">Упаковка 200 шт</div>
+          <div class="product-card-price">от 185 ₽ <small>/ уп.</small></div>
+          <button class="btn btn-cart btn-sm" style="width:100%">В корзину</button>
+        </div>
+        <div class="product-card reveal">
+          <div class="product-card-badge new">Новинка</div>
+          <div class="product-card-image">⚙️</div>
+          <h3>Винт DIN 912 с внутренним шестигранником</h3>
+          <div class="product-card-meta">Упаковка 100 шт</div>
+          <div class="product-card-price">от 320 ₽ <small>/ уп.</small></div>
+          <a href="product.html" class="btn btn-cart btn-sm" style="width:100%;text-align:center">Подробнее</a>
+        </div>
+        <div class="product-card reveal">
+          <div class="product-card-image">📎</div>
+          <h3>Анкер клиновой оцинкованный</h3>
+          <div class="product-card-meta">Упаковка 50 шт</div>
+          <div class="product-card-price">от 540 ₽ <small>/ уп.</small></div>
+          <button class="btn btn-cart btn-sm" style="width:100%">В корзину</button>
+        </div>
+        <div class="product-card reveal">
+          <div class="product-card-badge hit">Хит</div>
+          <div class="product-card-image">🔧</div>
+          <h3>Уголок крепёжный усиленный 90x90x65</h3>
+          <div class="product-card-meta">Упаковка 25 шт</div>
+          <div class="product-card-price">от 420 ₽ <small>/ уп.</small></div>
+          <button class="btn btn-cart btn-sm" style="width:100%">В корзину</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Новинки -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Новинки каталога</h2>
+        <a href="#" class="section-link">Все новинки →</a>
+      </div>
+      <div class="products-grid">
+        <div class="product-card reveal">
+          <div class="product-card-badge new">Новинка</div>
+          <div class="product-card-image">🔩</div>
+          <h3>Шуруп универсальный жёлтый цинк</h3>
+          <div class="product-card-meta">Упаковка 500 шт</div>
+          <div class="product-card-price">от 290 ₽ <small>/ уп.</small></div>
+          <button class="btn btn-cart btn-sm" style="width:100%">В корзину</button>
+        </div>
+        <div class="product-card reveal">
+          <div class="product-card-badge new">Новинка</div>
+          <div class="product-card-image">⛓️</div>
+          <h3>Болт DIN 933 полнорезьбовой оцинк.</h3>
+          <div class="product-card-meta">Упаковка 50 шт</div>
+          <div class="product-card-price">от 410 ₽ <small>/ уп.</small></div>
+          <button class="btn btn-cart btn-sm" style="width:100%">В корзину</button>
+        </div>
+        <div class="product-card reveal">
+          <div class="product-card-image">🧲</div>
+          <h3>Магнит неодимовый 10x5 мм</h3>
+          <div class="product-card-meta">Упаковка 10 шт</div>
+          <div class="product-card-price">от 180 ₽ <small>/ уп.</small></div>
+          <button class="btn btn-cart btn-sm" style="width:100%">В корзину</button>
+        </div>
+        <div class="product-card reveal">
+          <div class="product-card-badge new">Новинка</div>
+          <div class="product-card-image">📏</div>
+          <h3>Шпилька резьбовая DIN 975 М8x1000</h3>
+          <div class="product-card-meta">Штука</div>
+          <div class="product-card-price">от 85 ₽ <small>/ шт</small></div>
+          <button class="btn btn-cart btn-sm" style="width:100%">В корзину</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- О компании -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2>Не просто крепёж, а <em>надёжный партнёр</em></h2>
+          <p>Мы знаем, что крепёж — это не просто болты и гайки. Это основа строительства, производства и уверенности вашего бизнеса.</p>
+          <p>Компания «ГОСКРЕП» уже 15 лет помогает магазинам, строителям и предприятиям по всей России получать всё необходимое — быстро, удобно и без лишних хлопот.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">✓</div>
+              <div>
+                <h4>Готовые решения</h4>
+                <p>Фасовка, брендирование, оборудование</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">✓</div>
+              <div>
+                <h4>Своё производство</h4>
+                <p>Перфокрепёж собственного изготовления</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">✓</div>
+              <div>
+                <h4>Федеральные сети</h4>
+                <p>Работаем с крупнейшими ритейлерами</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">✓</div>
+              <div>
+                <h4>Маркетинг-поддержка</h4>
+                <p>Помогаем развивать ваши продажи</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual reveal">
+          <div class="about-visual-big">15</div>
+          <div class="about-visual-text">лет на рынке крепежа</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2 class="reveal">Готовы начать сотрудничество?</h2>
+      <p class="reveal">Получите персональный прайс-лист и условия поставки для вашего региона</p>
+      <button class="btn btn-white btn-lg reveal" id="ctaBtn">Получить прайс</button>
+    </div>
+  </section>
+
+  <!-- Форма -->
+  <section class="price-form-section" id="contacts">
+    <div class="container">
+      <div class="price-form-wrapper reveal">
+        <h3>Получить прайс-лист</h3>
+        <p class="form-desc">Менеджер отправит актуальный прайс на вашу почту</p>
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Имя</label>
+              <input type="text" id="formName" placeholder="Иван">
+            </div>
+            <div class="form-group">
+              <label>Телефон</label>
+              <input type="tel" id="formPhone" placeholder="+7 (___) ___-__-__">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" id="formEmail" placeholder="mail@company.ru">
+          </div>
+          <button type="submit" class="btn btn-red btn-lg" style="width:100%">Отправить</button>
+          <p class="form-consent">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+        </form>
+        <div class="form-success" id="formSuccess">
+          <div class="form-success-icon">✅</div>
+          <h4>Заявка отправлена!</h4>
+          <p>Прайс придёт на вашу почту в течение 15 минут</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">ГОС<span>КРЕП</span></div>
+          <p>Оптовые поставки крепежа по всей России. Собственное производство и складской комплекс.</p>
+        </div>
+        <div>
+          <h4>Каталог</h4>
+          <ul class="footer-links">
+            <li><a href="#">Строительный крепёж</a></li>
+            <li><a href="#">Метрический крепёж</a></li>
+            <li><a href="#">Перфорированный</a></li>
+            <li><a href="#">Нержавеющий</a></li>
+            <li><a href="#">Такелаж</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Компания</h4>
+          <ul class="footer-links">
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Сертификаты</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Документы</a></li>
+            <li><a href="#">Вакансии</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Контакты</h4>
+          <ul class="footer-links">
+            <li><a href="tel:88007778259">8 (800) 777-82-59</a></li>
+            <li><a href="mailto:info@goskrep.ru">info@goskrep.ru</a></li>
+            <li><a href="#">Москва</a></li>
+            <li><a href="#">Санкт-Петербург</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2026 ГОСКРЕП. Демонстрационная версия.</div>
+    </div>
+  </footer>
+
+  <div class="demo-watermark">DEMO</div>
+  <script src="js/main.js"></script>
+</body>
+</html>
